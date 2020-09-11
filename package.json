@@ -1,0 +1,25 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "restaurant website using webpack for the Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icepick-pauly/top_javascript_restaurant.git"
+  },
+  "author": "@icepick-pauly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icepick-pauly/top_javascript_restaurant/issues"
+  },
+  "homepage": "https://github.com/icepick-pauly/top_javascript_restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
