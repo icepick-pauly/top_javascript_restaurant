@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url('../img/bg.svg') no-repeat center center fixed; 
+    background-size: cover;
+    color: #ea3324;
+}
+
+.bar-container {
+    margin-top: 1em;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1  {
+    color: #ea3324;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.title {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 1em;
+    border: 5px dotted grey;
+    border-radius: 50px;
+}
+
+.navbar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-item img {
+    width: 30px;
+    display: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ea3324;
+    margin-left: 30px;
+    font-size: 1.8rem;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #ea3324;
+    padding-bottom: 1px;
+}
+
+.navbar a:active {
+    border-bottom: 2px solid #ea3324;
+    padding-bottom: 1px;
+}
+
+.window {
+    height: 90vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 1em;
+    background-color: white;
+    border: 5px dotted grey;
+    border-radius: 50px;
+}
+
+.window-container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.window-content {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Lora';
+}
+
+.window-content h1 {
+    font-weight: 200;
+}
+
+.window-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 50px;
+    border: 5px dotted grey;
+}
+
+.window-lower table {
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+    text-align: left;
+}
+
+.window-lower-story {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.window-lower-story p {
+    margin-top: 1em;
+}
+
+.window-lower-delivery .deliver-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 0;
+    margin-top: 1em;
+    padding: 10px;
+}
+
+.window-lower-contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
+.footer {
+    height: 10vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    border: 5px dotted grey;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ea3324;
+    font-family: 'Dancing Script', cursive;
+}
