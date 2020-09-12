@@ -14,10 +14,16 @@ html {
     font-family: 'Dancing Script', cursive;
 }
 
-h1 {
+h1  {
     color: #ea3324;
     font-size: 3rem;
     text-align: center;
+    margin-top: 1em;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 .title {
@@ -58,6 +64,11 @@ h1 {
 }
 
 .navbar a:hover {
+    border-bottom: 2px solid #ea3324;
+    padding-bottom: 1px;
+}
+
+.navbar a:active {
     border-bottom: 2px solid #ea3324;
     padding-bottom: 1px;
 }

@@ -1,0 +1,5 @@
+export const homeLink = document.getElementById('home-link')
+export const menuLink = document.getElementById('menu-link')
+export const storyLink = document.getElementById('story-link')
+export const orderLink = document.getElementById('order-link')
+export const contactLink = document.getElementById('contact-link')

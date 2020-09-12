@@ -7,6 +7,7 @@ export function home() {
                 <div class="window-content">
                     <div class="window-upper">
                         <h1>Our Phở is Phở-king Dank!</h1>
+                        <h3>Come and see for yourself!</h3>
                     </div>
                     <div class="window-lower">
                         <img src="assets/img/pho_home.jpg" alt="">

@@ -1,5 +1,3 @@
-
-
 document.getElementById("home-link").addEventListener("mouseover", homeMouseOver);
 document.getElementById("home-link").addEventListener("mouseout", homeMouseOut);
 function homeMouseOver() {
