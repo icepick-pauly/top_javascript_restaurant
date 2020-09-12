@@ -123,6 +123,16 @@ h1 {
     padding: 10px;
 }
 
+.window-lower-contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 1em;
+}
+
 .footer {
     height: 10vh;
     width: 80vw;

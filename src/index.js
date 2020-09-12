@@ -9,4 +9,5 @@ navbarHoverEffects();
 // home();
 // menu();
 // story();
-order();
+// order();
+contact();
