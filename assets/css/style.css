@@ -87,7 +87,6 @@ h1 {
 }
 
 .window-content h1 {
-    
     font-weight: 200;
 }
 
@@ -105,6 +104,15 @@ h1 {
     margin: auto;
     margin-top: 3em;
     text-align: left;
+}
+
+.window-lower-story {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.window-lower-story p {
+    margin-top: 1em;
 }
 
 .footer {
