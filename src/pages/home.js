@@ -3,12 +3,12 @@ const content = document.getElementById('content');
 export function home() {
     content.innerHTML = `
         <div class="window" id="window">
-            <div class="home-container">
-                <div class="home-content">
-                    <div class="home-text">
+            <div class="window-container">
+                <div class="window-content">
+                    <div class="window-upper">
                         <h1>Our Phở is Phở-king Dank!</h1>
                     </div>
-                    <div class="home-img">
+                    <div class="window-lower">
                         <img src="assets/img/pho_home.jpg" alt="">
                     </div>
                 </div>
