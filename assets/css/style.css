@@ -115,6 +115,14 @@ h1 {
     margin-top: 1em;
 }
 
+.window-lower-delivery .deliver-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 0;
+    margin-top: 1em;
+    padding: 10px;
+}
+
 .footer {
     height: 10vh;
     width: 80vw;

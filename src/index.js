@@ -8,4 +8,5 @@ import { contact } from "./pages/contact"
 navbarHoverEffects();
 // home();
 // menu();
-story();
+// story();
+order();
