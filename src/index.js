@@ -1,21 +1,5 @@
-import { homeMouseOver } from "./nav/navbar";
-import { homeMouseOut } from "./nav/navbar";
-import { menuMouseOver } from "./nav/navbar";
-import { menuMouseOut } from "./nav/navbar";
-import { storyMouseOver } from "./nav/navbar";
-import { storyMouseOut } from "./nav/navbar";
-import { orderMouseOver } from "./nav/navbar";
-import { orderMouseOut } from "./nav/navbar";
-import { contactMouseOver } from "./nav/navbar";
-import { contactMouseOut } from "./nav/navbar";
+import { navbarHoverEffects } from "./nav/navbar";
+import { home } from "./pages/home"
 
-homeMouseOver();
-homeMouseOut();
-menuMouseOver();
-menuMouseOut();
-storyMouseOver();
-storyMouseOut();
-orderMouseOver();
-orderMouseOut();
-contactMouseOver();
-contactMouseOut();
+navbarHoverEffects();
+home();

@@ -1,50 +1,65 @@
+
+
 document.getElementById("home-link").addEventListener("mouseover", homeMouseOver);
 document.getElementById("home-link").addEventListener("mouseout", homeMouseOut);
-export function homeMouseOver() {
+function homeMouseOver() {
     document.getElementById("home-link").style.marginLeft = "0";
     document.getElementById("home-nood").style.display = "inherit";
 }
-export function homeMouseOut() {
+function homeMouseOut() {
     document.getElementById("home-link").style.marginLeft = "30px";
     document.getElementById("home-nood").style.display = "none";
 }
 document.getElementById("menu-link").addEventListener("mouseover", menuMouseOver);
 document.getElementById("menu-link").addEventListener("mouseout", menuMouseOut);
-export function menuMouseOver() {
+function menuMouseOver() {
     document.getElementById("menu-link").style.marginLeft = "0";
     document.getElementById("menu-nood").style.display = "inherit";
 }
-export function menuMouseOut() {
+function menuMouseOut() {
     document.getElementById("menu-link").style.marginLeft = "30px";
     document.getElementById("menu-nood").style.display = "none";
 }
 document.getElementById("story-link").addEventListener("mouseover", storyMouseOver);
 document.getElementById("story-link").addEventListener("mouseout", storyMouseOut);
-export function storyMouseOver() {
+function storyMouseOver() {
     document.getElementById("story-link").style.marginLeft = "0";
     document.getElementById("story-nood").style.display = "inherit";
 }
-export function storyMouseOut() {
+function storyMouseOut() {
     document.getElementById("story-link").style.marginLeft = "30px";
     document.getElementById("story-nood").style.display = "none";
 }
 document.getElementById("order-link").addEventListener("mouseover", orderMouseOver);
 document.getElementById("order-link").addEventListener("mouseout", orderMouseOut);
-export function orderMouseOver() {
+function orderMouseOver() {
     document.getElementById("order-link").style.marginLeft = "0";
     document.getElementById("order-nood").style.display = "inherit";
 }
-export function orderMouseOut() {
+function orderMouseOut() {
     document.getElementById("order-link").style.marginLeft = "30px";
     document.getElementById("order-nood").style.display = "none";
 }
 document.getElementById("contact-link").addEventListener("mouseover", contactMouseOver);
 document.getElementById("contact-link").addEventListener("mouseout", contactMouseOut);
-export function contactMouseOver() {
+function contactMouseOver() {
     document.getElementById("contact-link").style.marginLeft = "0";
     document.getElementById("contact-nood").style.display = "inherit";
 }
-export function contactMouseOut() {
+function contactMouseOut() {
     document.getElementById("contact-link").style.marginLeft = "30px";
     document.getElementById("contact-nood").style.display = "none";
+}
+
+export function navbarHoverEffects() {
+    homeMouseOver();
+    homeMouseOut();
+    menuMouseOver();
+    menuMouseOut();
+    storyMouseOver();
+    storyMouseOut();
+    orderMouseOver();
+    orderMouseOut();
+    contactMouseOver();
+    contactMouseOut();
 }
